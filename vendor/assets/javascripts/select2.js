@@ -3322,10 +3322,6 @@ S2.define('select2/data/select',[
         return;
       }
 
-      if ($option[0].selected == true) {
-        return;
-      }
-
       var option = self.item($option);
 
       var matches = self.matches(params, option);
